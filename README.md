@@ -7,7 +7,7 @@ This project was developed as part of the **Big Data & Cloud Computing** module 
 
 While this originated as an academic project, this repository features a **fully refactored, production-grade implementation**. I have transitioned the original exploratory analysis into a modular Python framework to demonstrate professional data engineering standards.
 
-## Tech Stack
+## Tech 
 * **Engine:** Apache Spark (PySpark)
 * **Environment:** Local Spark Session (Optimized for multi-core processing)
 * **Time-Series Modeling:** Statsmodels (SARIMA)
@@ -15,9 +15,7 @@ While this originated as an academic project, this repository features a **fully
 * **Visualizations:** Matplotlib, Seaborn
 
 ## Data Source & Reproducibility
-* **Source:** [data.police.uk](https://data.police.uk/) (Official UK Police Street-level crime data).
-* **Access Note:** The original Azure Blob Storage (Cloud) container used during development is no longer active. 
-* **To Run Locally:** Download the public UK Police datasets (2018–2021) and place the CSV files in the `/data` directory.
+* The original data was hosted in a private Azure Blob Storage bucket which is no longer active. However, this pipeline is built to be reproducible. Researchers can download the public street-level crime datasets directly from data.police.uk to run the pipeline
 
 
 
